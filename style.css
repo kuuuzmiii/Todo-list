@@ -1,0 +1,60 @@
+.displays{
+	background-color: #000000;
+	
+	overflow: hidden;
+	
+}
+.inputText{
+	display: table;
+	background-color: red;
+	color: #ffffff;
+	font-size: 20px;
+	height: 10%;
+	padding: 5%;
+	width: 90%;
+}
+.inputText h1 {
+	background-color:red;
+	text-align: center;
+}
+.inp{
+	display: flex;
+	clear:both;
+	height: 10%;
+}
+.znach{
+	width: 70%;
+	float: left;
+	font-size: 100%;
+	outline: none;
+}
+.add{
+	width: 25%;
+	font-size: 100%;
+	cursor: pointer;
+	padding: 1%;
+}
+ul li{
+	/* text-decoration: line-through; */
+	list-style-type: none;
+	position: relative;
+	font-size: 23px;
+	padding: 0.8% 0.6% 0.8% 0.8%;
+	cursor: pointer; 
+	position: relative;
+}
+.clicked{
+	text-decoration: line-through;
+	background-color:#808080;
+
+}
+.activ  {
+	background-color:#C0C0C0;
+}
+
+.close{
+	position: absolute;
+	top:0;
+	right: 0;
+	padding: 0.8% 0.6% 0.8% 0.8%;;
+}
